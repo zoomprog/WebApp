@@ -10,8 +10,6 @@ h1, h2, h3, h4, h5, h6 {
   color: white; /* Цвет заголовков */
 }
 
-/* Обнуление внешних отступов для маркированного списка */
-
 
 /* Стили для элементов с классом "bg-steel" */
 .bg-steel {
@@ -61,12 +59,6 @@ h1, h2, h3, h4, h5, h6 {
    border-bottom-left-radius:20px;
    border-bottom-right-radius:20px;
 }
-
-
-
-
-
-
 
 /* Стили для заголовка статьи */
 .article-title {
