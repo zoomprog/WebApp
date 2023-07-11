@@ -1,84 +1,126 @@
+/* Основные стили для всего документа */
 body {
-  background: #fafafa;
-  color: #333333;
-  margin-top: 5rem;
+  background: #222222; /* Цвет фона */
+  color: #333333; /* Цвет текста */
+  margin-top: 5rem; /* Верхний отступ */
 }
 
+/* Стили заголовков */
 h1, h2, h3, h4, h5, h6 {
-  color: #444444;
+  color: white; /* Цвет заголовков */
 }
 
-ul {
-  margin: 0;
-}
+/* Обнуление внешних отступов для маркированного списка */
 
+
+/* Стили для элементов с классом "bg-steel" */
 .bg-steel {
-  background-color: #5f788a;
+  background-color: #141414; /* Цвет фона */
 }
 
+/* Стили для ссылок в навигационной панели */
 .site-header .navbar-nav .nav-link {
-  color: #cbd5db;
+  color: #cbd5db; /* Цвет ссылок */
 }
 
+/* Стили для наведения курсора на ссылки в навигационной панели */
 .site-header .navbar-nav .nav-link:hover {
-  color: #ffffff;
+  color: #ffffff; /* Цвет ссылок при наведении курсора */
 }
 
+/* Стили для активной ссылки в навигационной панели */
 .site-header .navbar-nav .nav-link.active {
-  font-weight: 500;
+  font-weight: 500; /* Насыщенность шрифта активной ссылки */
 }
 
+/* Стили для секции контента */
 .content-section {
-  background: #ffffff;
-  padding: 10px 20px;
-  border: 1px solid #dddddd;
-  border-radius: 3px;
-  margin-bottom: 20px;
+  background: #141414; /* Цвет фона */
+  color: white;
+  padding: 10px 20px; /* Внутренние отступы */
+  border: 1px solid #6e6e6e; /* Граница */
+  border-radius: 20px; /* Закругление углов */
+  margin-bottom: 10px; /* Отступ снизу */
+}
+/*Our sidebar*/
+.list-group-item-light{
+   background: black;
+   color: white;
+   margin:2px;
+   border-radius:20px;
+   overflow: hidden;
+   display: flex;
+   justify-content: center;
+   align-item: center;
+}
+.list-group-item-light:first-child{
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.list-group-item-light:last-child{
+   border-bottom-left-radius:20px;
+   border-bottom-right-radius:20px;
 }
 
+
+
+
+
+
+
+/* Стили для заголовка статьи */
 .article-title {
-  color: #444444;
+  color: white; /* Цвет заголовка статьи */
 }
 
+/* Стили для наведения курсора на заголовок статьи */
 a.article-title:hover {
-  color: #428bca;
-  text-decoration: none;
+  color: #428bca; /* Цвет заголовка статьи при наведении курсора */
+  text-decoration: none; /* Убрать подчеркивание */
 }
 
+/* Стили для содержимого статьи */
 .article-content {
-  white-space: pre-line;
+  white-space: pre-line; /* Переносы строк сохраняются */
 }
 
+/* Стили для изображения статьи */
 .article-img {
-  height: 65px;
-  width: 65px;
-  margin-right: 16px;
+  height: 65px; /* Высота изображения */
+  width: 65px; /* Ширина изображения */
+  margin-right: 16px; /* Правый отступ */
 }
 
+/* Стили для метаданных статьи */
 .article-metadata {
-  padding-bottom: 1px;
-  margin-bottom: 4px;
-  border-bottom: 1px solid #e3e3e3
+  padding-bottom: 1px; /* Отступ снизу */
+  margin-bottom: 4px; /* Отступ снизу */
+  border-bottom: 1px solid #e3e3e3; /* Граница снизу */
 }
 
+/* Стили для наведения курсора на ссылки в метаданных статьи */
 .article-metadata a:hover {
-  color: #333;
-  text-decoration: none;
+  color: white; /* Цвет ссылки при наведении курсора */
+  text-decoration: none; /* Убрать подчеркивание */
 }
 
+/* Стили для SVG-изображений статьи */
 .article-svg {
-  width: 25px;
-  height: 25px;
-  vertical-align: middle;
+  width: 25px; /* Ширина SVG */
+  height: 25px; /* Высота SVG */
+  vertical-align: middle; /* Вертикальное выравнивание */
 }
 
+/* Стили для изображения аккаунта */
 .account-img {
-  height: 125px;
-  width: 125px;
-  margin-right: 20px;
-  margin-bottom: 16px;
+  height: 125px; /* Высота изображения */
+  width: 125px; /* Ширина изображения */
+  margin-right: 20px; /* Правый отступ */
+  margin-bottom: 16px; /* Отступ снизу */
 }
 
+/* Стили для заголовка аккаунта */
 .account-heading {
-  font-size: 2.5rem;
+  font-size: 2.5rem; /* Размер шрифта заголовка аккаунта */
 }
+
