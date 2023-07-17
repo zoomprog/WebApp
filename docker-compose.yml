@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  web_app:
+    build:
+      context: .
+    ports:
+      - "0:8000"
+
+    volumes:
+      - ./WebApp:/WebApp
+    command:
+      sh -c "python manage.py runserver "
